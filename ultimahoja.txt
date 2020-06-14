@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimahoja</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
+    <script src="http://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready( function () {
+            $('#tabladatos').DataTable();
+        } );
+    </script>
+
+    <style>
+        body {
+            background-image: url(imagenes/Hojas-verdes.jpg);
+              padding-left: 10px;
+              padding-right: 10px;
+        }
+        #titulo{
+            color :black;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Organigrama</h1>
+
+   <h3 id="titulo"><p>A continuación se adjunta un ejemplo de un calendario que organiza las labores de los vecinos en el huerto según el proyecto:</p></h3>
+
+    <table id="tabladatos" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Dirección</td>
+                <td>Fono</td>
+                <td>Día</td>
+                <td>Turno Mañana</td>
+                <td>Turno Tarde</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Javier</td>
+                <td>Casa A</td>
+                <td>3456789</td>
+                <td>Lunes 01</td>
+                <td>Mañana</td>
+                <td>------</td>
+            </tr>
+            <tr>
+                <td>Rodrigo</td>
+                <td>Casa B</td>
+                <td>2481012</td>
+                <td>Martes 02</td>
+                <td>------</td>
+                <td>Tarde</td>
+            </tr>
+            <tr>
+                <td>Rosario</td>
+                <td>Casa D</td>
+                <td>1247658</td>
+                <td>Miercoles 03</td>
+                <td>------</td>
+                <td>Tarde</td>
+            </tr>
+            <tr>
+                <td>Belen</td>
+                <td>Casa C</td>
+                <td>5647839</td>
+                <td>Jueves 04</td>
+                <td>Mañana</td>
+                <td>-------</td>
+            </tr>
+            <tr>
+                <td>Claudia</td>
+                <td>Casa E</td>
+                <td>1904356</td>
+                <td>Viernes 05</td>
+                <td>Mañana</td>
+                <td>-------</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>Casa F</td>
+                <td>5603450</td>
+                <td>Sabado 06</td>
+                <td>-------</td>
+                <td>Tarde</td>
+            </tr>
+            <tr>
+                <td>Francisco</td>
+                <td>Casa G</td>
+                <td>25634521</td>
+                <td>Lunes 08</td>
+                <td>Mañana</td>
+                <td>------</td>
+            </tr>
+            <tr>
+                <td>Yanina</td>
+                <td>Casa H</td>
+                <td>3456765</td>
+                <td>Martes 09</td>
+                <td>Mañana</td>
+                <td>------</td>
+            </tr>
+            <tr>
+                <td>Mario</td>
+                <td>Casa I</td>
+                <td>2802789</td>
+                <td>Miercoles 10</td>
+                <td>-------</td>
+                <td>Tarde</td>
+            </tr>
+            <tr>
+                <td>Pamela</td>
+                <td>Casa J</td>
+                <td>3452000</td>
+                <td>Jueves 11</td>
+                <td>Mañana</td>
+                <td>------</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    
+  <nav> 
+    <ul id="final">
+   
+     <li><a href="borrador.html">Volver al menú principal</a></li>
+     <li><a href="Pruebafinalmod3.html">atrás</a></li>
+     </ul>
+  </nav>
+</body>
+</html>

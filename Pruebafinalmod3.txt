@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pruebafinalmod3</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#pasos" ).accordion();
+          });
+    </script>
+    
+    <style>
+        body {
+            background-image: url(imagenes/Hojas-verdes.jpg);
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        h1 {
+            border: 2px solid rgb(6, 110, 67);
+            padding: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+
+        }
+
+        #pasos {
+          border: 2px solid rgb(168, 228, 89);
+          padding: 10px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          text-align: Left;
+        }
+
+
+
+    </style>
+
+    
+</head>
+<body>
+    <h1>Proyecto Huerto Sustentable Comunitario</h1>
+  
+    <a data-fancybox="gallery" href="imagenes/huertourbanogrande.jpg"><img src="imagenes/huertourbano.jpg"></a>
+    
+    <h2>Primeros pasos para crear un huerto Comunitario</h2>
+    <div id="pasos">
+      
+        <h3>1-La formación de un comité de planeación</h3>
+        <div>
+          <p>El primer objetivo del comité debe ser desarrollar un cuestionario para evaluar la comunidad y determinar el interés, nivel de compromiso y características de los vecinos. Si el proyecto busca beneficiar a un grupo particular o a todo un vecindario, es importante que las personas estén involucradas en todos los aspectos de la planeación y ejecución del proyecto</p>
+        </div>
+        <h3>2.-La selección de un coordinador</h3>
+        <div>
+          <p>La selección de un coordinador general para el proyecto es decisiva para el éxito de cualquier huerta comunitaria de verduras. Se debe encontrar a alguien que tenga el tiempo, paciencia, aptitudes de liderazgo, creatividad y fortaleza para resolver los numerosos problemas que conlleva el concretarlo todo.</p>
+        </div>
+        <h3>3-La selección del lugar</h3>
+        <div>
+          <p>Un comité debe tener en cuenta diferentes sitios, si es posible. Los participantes deben estar de acuerdo en que el terreno será usado para beneficio público y que lo mantendrán adecuadamente. El terreno debe tener al menos ocho horas de luz solar. Dependiendo del acceso, puede ser necesario poner una cerca para impedir el paso de animales, autos y vándalos. Quizás sea necesario cerrar el cerco con condado por seguridad</p>
+        </div>
+        <h3>4-Directrices y reglas</h3>
+        <div>
+          <p>La mayoría de coordinadores y participantes de huertas comunitarias exitosas están de acuerdo en que todos los colaboradores deben seguir las directrices y normas acordadas para la huerta. Se deben estipular y acordar las directrices y responsabilidades individuales antes de empezar la huerta. Las reglas deben ser simples y fáciles de hacer cumplir. </p>
+        </div>  
+        <h3>5-Diseño y preparación de la huerta</h3>
+        <div>
+          <p>El primer paso es limpiar el lugar y diseñar la huerta. El diseño del riego debe incluir si habrá grifos o llaves de agua o un sistema de riego por goteo o aspersores. La aplicación de compost ayudará a mejorar el suelo cultivable. Es mejor manejar la mayoría de huertas como si fuesen huertas orgánicas o huertas libres de pesticidas.</p>
+        </div>
+    </div>
+        
+    <ul id="final">
+   
+      <li><a href="borrador.html">Volver al menú principal</a></li>
+      <li><a href="ultimahoja.html">siguiente</a></li>
+      </ul>
+</body>
+</html>

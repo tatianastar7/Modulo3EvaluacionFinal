@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>hoja1</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <style>
+    .ui-controlgroup-vertical {
+      width: 150px;
+    }
+    .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+    .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+      text-align: center;
+    }
+    #car-type-button {
+      width: 120px;
+    }
+    .ui-controlgroup-horizontal .ui-spinner-input {
+      width: 20px;
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+    $( function() {
+      $( ".controlgroup" ).controlgroup()
+      $( ".controlgroup-vertical" ).controlgroup({
+        "direction": "vertical"
+      });
+    } );
+    </script>
+  <script>
+      $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+
+  <style>
+       body {
+            background-image: url(Hojas-verdes.jpg);
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        h1 {
+            border: 2px solid rgb(6, 110, 67);
+            padding: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(20, 1, 1);
+        }
+        h3 {
+            text-align: left;
+            color: rgb(15, 1, 1);
+        }
+        p{
+            color:rgb(15, 1, 2);
+        }
+        #datepicker{
+            align-content: right; 
+        }
+  </style>
+        
+        <style>
+            .ui-controlgroup-vertical {
+              width: 150px;
+            }
+            .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+            .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+              text-align: center;
+            }
+            #car-type-button {
+              width: 120px;
+            }
+            .ui-controlgroup-horizontal .ui-spinner-input {
+              width: 20px;
+            }
+        </style>       
+
+</head>
+<body>
+    <h1>Proyecto Huerto Sustentable Comunitario</h1>
+
+    <h2>Organización del día a día en Huertos Comunitarios</h2>
+
+    <div>
+        <p>Por lo general, los huertos urbanos convocan a sus miembros una vez al mes en asamblea para tratar los asuntos de convivencia o de planificación que necesitan resolverse por consenso. El cómo organizar a la comunidad diariamente se puede resolver llevando un calendario mensual con responsabilidades en que cada vecino se inscribe de acuerdo a su tiempo. A continuación mostramos un ejemplo de cómo la tecnología puede ayudar en este aspecto:</p>
+        <h3>Seleccione en el calendario día a trabajar:</h3>
+        <p>Date: <input type="text" id="datepicker"></p>
+        <br>
+        <br>
+    </div>
+
+    
+    <div class="widget">
+        <h2>Seleccione horario y labor a realizar</h2>
+        <fieldset>
+          <legend>Labores de la mañana</legend>
+          <div class="controlgroup">
+            <select id="car-type">
+              <option>Regar</option>
+              <option>Retirar maleza</option>
+              <option>Retirar hojas</option>
+              <option>Cultivar</option>
+            </select>
+            <label for="transmission-standard">Disponible</label>
+            <input type="radio" name="transmission" id="transmission-standard">
+            <label for="transmission-automatic">No disponible</label>
+            <input type="radio" name="transmission" id="transmission-automatic">
+            <label for="insurance">Anotarse</label>
+            <input type="checkbox" name="insurance" id="insurance">
+          </div>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Labores en la tarde</legend>
+          <div class="controlgroup-vertical">
+            <select>
+              <option>Cosechar</option>
+              <option>Podar</option>
+              <option>Retirar basura</option>
+              <option>Guardar herram</option>
+            </select>
+            <label for="transmission-standard-v">Disponible</label>
+            <input type="radio" name="transmission-v" id="transmission-standard-v">
+            <label for="transmission-automatic-v">No disponible</label>
+            <input type="radio" name="transmission-v" id="transmission-automatic-v">
+            <label for="insurance-v">Anotarse</label>
+            <input type="checkbox" name="insurance" id="insurance-v">
+          </div>
+        </fieldset>
+    </div>
+    
+
+</body>
+</html>

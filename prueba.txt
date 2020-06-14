@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="estilohuerta.css">
+<title>Evaluacionintermedia</title>
+
+<link rel="stylesheet" href="https//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<style>
+  .toggler { width: 500px; height: 200px; position: relative; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { position: relative; }
+  .newClass { width: 240px;  padding: 1em; letter-spacing: 0; margin: 0; }
+  .anotherNewClass { text-indent: 40px; letter-spacing: .2em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#button" ).on( "click", function() {
+      $( ".newClass" ).switchClass( "newClass", "anotherNewClass", 1000 );
+      $( ".anotherNewClass" ).switchClass( "anotherNewClass", "newClass", 1000 );
+    });
+  } );
+  </script>
+<style>
+  #draggable { width: 400px; height: 300px; padding: 1.0em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+</head>
+<body background="imagenes/Hojas-verdes.jpg">
+       <h1>
+           Huerto Sustentable Comunitario
+       </h1>
+   <nav>
+      <a> </a>
+   </nav>
+   <main>
+       <section id="secciones">
+           <div class= "cajon1"> 
+               <h3>¿Por qué realizar huertos comunitarios?</h3>
+           </div>
+           <div class="toggler">
+            <div id="effect" class="newClass ui-corner-all">
+              Los huertos comunitarios resuelven parte de la necesidad alimenticia local y entre otros beneficios se cuentan: convierten los espacios degradados o abandonados en lugares útiles, y mejoran el paisaje de la ciudad al añadir más zonas verdes a cada barrio o distrito.
+            </div>
+          </div>
+          <button id="button" class="ui-state-default ui-corner-all">Razón Principal</button>
+        <br>    
+                          
+           <div class= "cajon2">
+               <h3>Propuesta de Valor a Huertos Comunitarios</h3>
+               <p><img src="imagenes/huertos-urbanos_san_francisco.jpg"></p></div>
+                <br>
+                <div id="draggable" class="ui-widget-content">
+                  <p>Llevando esta idea al área de la tecnología, nos motiva diseñar un software que permita organizar a la comuniadad, 
+                    en cuanto a las responsabilidades de cada vecino en torno a la mano de obra que aportará, horarios de riego y fechas de preparación de la tierra, de cultivo, 
+                    de recolección, dependiendo de las estaciones del año, entre otros. Debe contener también información relativa a un manual que indique toda la forma de realizar el cultivo de hortalizas y frutos. Las Municipalidades pueden aportar con compartir a vecinos secciones en los parques, plazas u otros sitios para el cultivo comunitario, la entrega de semillas o almacigos y proporcionar el sistema de riego y el agua potable.</p>
+                </div>             
+                <h2><strong>El Compostaje, todo lo que debes saber HAZ CLICK <a href="compostaje.html">AQUI</a> </strong></h2>    
+
+
+           <ul id="final">
+               <li><a href="borrador.html">Volver al menú principal</a></li>
+               <li><a href="Pruebafinalmod3.html"> próximo.</a></li>
+               </ul>
+       </section>
+  </main>
+</body>
+</html>

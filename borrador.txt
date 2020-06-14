@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <script>
+        $( function() {
+          $( "#contenedor1" ).accordion();
+        } );
+        $( "#menu" ).menu({
+         items: "> :not(.ui-widget-header)"
+        });
+        </script>
+    <style>
+        .ui-menu { width: 200px; }
+          .ui-widget-header { padding: 0.2em; }
+    </style>
+
+	<title>Pagina Principal</title>
+
+</head>
+<body background="imagenes/Hojas-verdes.jpg">
+    <h1> VIDA SUSTENTABLE</h1>
+	<div id="menu">
+		<ul >
+            <li><a href="#h2">Nuestra Mision</a></li>
+            <li><a href="#contenido">Contactanos</a></li>
+            <li><a href="productos.html">Nuestros Productos</a></li>
+            <li><a href="compostaje.html">Huerto Comunitario</a></li>
+            <li><a href="formularioregistro.html">Registrate</a></li>
+            </ul>
+	</div>
+
+<div id="contenedor1"><h2 >Nuestra Mision</h2>
+
+
+ <p> En el mundo en que vivimos, el desarrollo sostenible constituye un nuevo paradigma que nos alienta a pensar y aproximarnos a la realidad de
+ una forma diferente. La sostenibilidad, o las formas sustentables de desarrollo humano –como es llamado en la actualidad esta disciplina para
+  dar cuenta de su mirada amplia e integradora–, nos invita a buscar soluciones innovadoras para los problemas que afectan a nuestro planeta y 
+  para enfrentar los desafíos políticos, económicos, sociales y ambientales de nuestras sociedades.</p>
+  <br>
+  <p>
+    Los artículos, notas, conferencias y textos publicados en este espacio muchos de los cuales no son de nuestra autoría–, ofrecen 
+    una visión sobre las formas sostenibles de desarrollo humano y en su conjunto creo que nos permiten atisbar un nuevo horizonte y 
+    tomar un rumbo que puede ayudarnos a transformar escenarios, mejorar estándares de vida y generar condiciones innovadoras para el 
+    futuro de la humanidad.</p></div>
+
+
+
+          <div id="objetivo" ><h3><strong>Nuestra visión</strong></h3>
+
+         <h4><p>Nuestra visión es erradicar la pobreza en todas sus formas, alrederedor de todo el mundo, de esta manera poner fin al hambre, así  conseguir la seguridad 
+            alimentaria  y una mejor nutrición para todos sin distinción de raza, color sexo,etc. además  promover el autocultivo, los huertos en casa y la agricultura
+             sostenible. Garantizar una vida saludable y promover el bienestar es tarea de todos, y aquí estamos para ayudarte.</p></h4></div>
+<br>
+
+            <img src="imagenes/hojita.jpg">
+
+
+
+
+
+
+
+    <ul id="contenido">
+        <li><strong>Nombres:</strong>Madelaine Oliva</li>
+        <li><strong>Nombres:</strong>Tatiana Iturriaga</li>
+        <li><strong>Email: cuidalatierra@vidasustentable.cl</strong></li>
+      </ul>
+
+      <a href="prueba.html"> siguiente.</a>
+
+      <footer>
+        <p>Todos los derechos reservados</p><p><strong> Referencia: BioBioChile</strong></p>
+      </footer>
+    </body> 
+</html>
+

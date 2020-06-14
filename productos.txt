@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <title>Document</title>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+         lightbox.option({
+                'albumLabel': "Imagen %1 de %2"
+     })
+     $( function() {        
+          $( "#productos" ).runEffect();
+        });
+    </script>
+    <style>
+        #productos {
+            text-align: center;
+        }
+    </style>
+</head>
+<body background="imagenes/Hojas-verdes.jpg">
+     <div  id="productos">
+    <header><strong><h1>Nuestros Productos </h1></strong> </header></div>
+    
+                 <articles class="row">
+ <article class="col-md-3">
+ <a href="images/img1.jpg" data-lightbox="example-set" data-title="Regala">
+ <img src="imagenes/humus.jpg" alt="Regala" class="img-thumbnail"></a>
+ <h3><p>Humus </p></h3>
+ <p><strong>$3.990</strong></p>
+ </article>
+ <article class="col-md-3">
+ <a href="images/img2.jpg" data-lightbox="example-set" data-title="Descansa">
+ <img src="imagenes/mesa de cultivo.jpg" alt="Descansa" class="img-thumbnail"></a>
+ <h3><p>Mesa de cultivo</p></h3>
+ <p><strong>$8.990</strong></p>
+ </article>
+ <article class="col-md-3">
+    <a href="images/img2.jpg" data-lightbox="example-set" data-title="Descansa">
+    <img src="imagenes/tierrahojas.jpg" alt="Descansa" class="img-thumbnail"></a>
+        <h3><p>Tierra de hojas</p></h3>em
+    <p><strong>$1.500</strong></p>
+    </article>
+    <article class="col-md-3">
+        <a href="images/img2.jpg" data-lightbox="example-set" data-title="Descansa">
+        <img src="imagenes/almacigotomat.jpg" alt="Descansa" class="img-thumbnail"></a>
+        <h3><p>Almacigo Tomate</p></h3>
+        <p><strong>$690</strong></p>
+        </article>
+        <br>
+        <article class="col-md-3">
+             <a href="images/img2.jpg" data-lightbox="example-set" data-title="Descansa">
+             <img src="imagenes/almacigolechuga.jpg" alt="Descansa" class="img-thumbnail"></a>
+             <h3><p>Almacigo de Lechuga</p></h3>
+             <p><strong>$750</strong></p>
+            </article>
+                 </articles>
+        <p>  Contamos con stock disponibles de los productos visualizados en este sitio web</p>
+        <p> para más informacion pincha  <a href="formularioregistro.html">aquí</a></p>
+      
+        <ul id="final">
+   
+
+            <li><a href="ultimahoja.html">siguiente</a></li>
+            </ul>
+                       
+
+</body>
+</html>
+

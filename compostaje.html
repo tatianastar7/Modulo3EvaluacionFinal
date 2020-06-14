@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<title>El compostaje</title>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+
+<style>
+  .toggler { width: 500px; height: 200px; position: relative; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+  #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+</style>
+
+
+<style>
+  body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#info {
+ background-color:tomato;
+
+}
+
+h1 {
+  border-bottom: 2px solid #00F;
+  text-align: center;
+}
+
+main {
+  border: 2px solid #AAA;
+}
+
+#datos {
+  border-top: 4px dotted rgb(47, 0, 255);
+  border-bottom: 4px dotted #00F
+}
+
+#contenido {
+  border: 2px dashed #0F0;
+}
+
+#final {
+  border-top: 4px dotted rgb(47, 0, 255);
+  border-bottom: 4px dotted #00F
+}
+
+.contenedor{
+    width: 90%
+    height= 200px;/* para 980px o menos */
+	@media screen and (max-width:980px) { 
+			width:98%;
+		}
+	
+	/* para 700px o menos */
+	@media screen and (max-width:700px) {
+		aside,section {
+			float:none;
+			width:96%;
+		}
+		nav, section {
+			font-size:1.2em;
+		}
+		aside {
+			margin-top:5px;
+		}
+		nav ul {
+			float:none;
+			clear:both;
+		}
+	}
+ 
+	/* para 480px o menos */
+	@media screen and (max-width:480px) {
+		aside {
+			display:none;
+		}
+		nav, section {
+			font-size:1.5em;
+		}
+		section {
+			width:94%;
+    }
+    #insumos{
+      text-align: center;
+    }
+		nav ul {
+			float:left;
+			clear:none;
+			width:50%;
+		}
+		nav ul li {
+			float:none;
+		}
+	}
+	</style>
+
+</head>
+<body background="imagenes/Hojas-verdes.jpg">
+    <div class="contenedor">
+        <header>
+<h1>Crea tu propio COMPOST</h1>
+        </header>
+        <section class="main">
+            <h4>En Chile, cada persona bota a la basura 220 kilos de comida al año, por lo que si sumamos a cada habitante de nuestro país generamos un total de 3.700 millones de kilos
+             de comida que se va a la basura cada año. No obstante, hoy en día gracias al compostaje podemos hacernos cargo de nuestras sobras, convertirlas en abono natural y combatir el cambio climático.
+    
+            Esta práctica es muy importante si consideramos que la basura diaria que se genera en los hogares contiene un 50% de materia orgánica, según datos del Ministerio del Medio Ambiente. Al hacer 
+            compostaje se evita que estos residuos lleguen a los rellenos sanitarios, donde no se aprovechan sus beneficios y además se reducen las emisiones de gases de efecto invernadero.
+            </h4>
+            </section>
+
+            
+            <nav>
+                <ul id="datos">
+                     <li><a href="#h2">El rol del Compost</a></li>
+                    <li><a href="#contenido">Materiales para elaborarlo</a></li>
+                  </ul></nav>
+                  <aside>
+                    <h2 id="h2">El rol del compostaje en la gestión de residuos</h2>
+                    <img src="imagenes/Vermicompostera1.jpg">
+                    <p><h3>Los procesos de revaloración y reciclaje que encontramos en la naturaleza nos sirven como modelo para el compostaje de los restos de cocina y de jardín, pero éste es también un elemento imprescindible en la planificación y gestión de residuos. Los principios de una política de gestión de residuos orientada con criterios ecológicos son: evitar o minimizar, reducir y reciclar.</p></h3>
+                  </aside>
+                                     
+                                        
+                        </div>
+                        <div class="material">
+
+                            <h2 >Material básico.
+                                    Ideas para hacer tu propia compostadora casera</h2>
+
+                                    <div id="tabs">
+                                      <ul>
+                                        <li><a href="#tabs-1">Idea 1</a></li>
+                                        <li><a href="#tabs-2">Idea 2</a></li>
+                                        <li><a href="#tabs-3">Idea 3</a></li>
+                                      </ul>
+                                      <div id="tabs-1">
+                                        <p>Un pequeño recipiente de recogida para la cocina (3-6 litros). Para el vermicompostaje lo más adecuado es un colador grande colgado de un cacharro de cocina o con un plato debajo y sin tapar. Es necesario vaciarlo como mínimo dos veces por semana. Para el compostaje común se puede utilizar también un cubo normal. Si se envuelve en papel de periódicos, el recipiente permanecerá limpio.</p>
+                                      </div>
+                                      <div id="tabs-2">
+                                        <p>El compostero (a escoger según situación y modelo). Se puede comprar o bien, con un poco de imaginación, se lo puede hacer uno mismo con aquello que se tenga a disposición. Se venden con y sin tapadera, de madera, plástico y metálicos. También se puede compostar sin compostero disponiendo el material en montones y cubriéndolo.</p>
+                                      </div>
+                                      <div id="tabs-3">
+                                        <p>Si se dispone de poco espacio y se quiere mantener ordenado es aconsejable utilizar un recipiente compostador (cuanto más cerrado, más rápidamente se desarrolla el proceso, lo que significa más capacidad y menos necesidad de espacio).</p>
+                                      </div>
+                                    </div>
+      <p id="insumos"><strong>Si deseas comprar nuestros productos pincha  <a href="productos.html">AQUI</a></strong></p>
+
+
+</div>
+  
+  <nav> 
+    <ul id="final">
+   
+     <li><a href="borrador.html">Volver al menú principal</a></li>
+     <li><a href="prueba.html">atrás</a></li>
+     </ul>
+  </nav>
+</body>
+</html>
